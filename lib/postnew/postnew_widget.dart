@@ -39,8 +39,8 @@ class _PostnewWidgetState extends State<PostnewWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              Image.network(
-                'https://picsum.photos/seed/862/600',
+              Image.asset(
+                'assets/images/learn.png',
                 width: double.infinity,
                 height: 250,
                 fit: BoxFit.cover,
