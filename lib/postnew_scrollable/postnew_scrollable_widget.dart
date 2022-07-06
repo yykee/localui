@@ -37,40 +37,38 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: SingleChildScrollView(
-            child: Column(
-              mainAxisSize: MainAxisSize.max,
-              children: [
-                Image.asset(
-                  'assets/images/ranking.png',
-                  width: double.infinity,
-                  height: 250,
-                  fit: BoxFit.cover,
-                ),
-                ListView(
-                  padding: EdgeInsets.zero,
-                  shrinkWrap: true,
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [],
-                          ),
-                          Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [],
-                          ),
-                        ],
-                      ),
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Image.asset(
+                'assets/images/ranking.png',
+                width: double.infinity,
+                height: 250,
+                fit: BoxFit.cover,
+              ),
+              ListView(
+                padding: EdgeInsets.zero,
+                shrinkWrap: true,
+                scrollDirection: Axis.vertical,
+                children: [
+                  SingleChildScrollView(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [],
+                        ),
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [],
+                        ),
+                      ],
                     ),
-                  ],
-                ),
-              ],
-            ),
+                  ),
+                ],
+              ),
+            ],
           ),
         ),
       ),
