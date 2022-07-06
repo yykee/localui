@@ -68,9 +68,12 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [],
+                              SingleChildScrollView(
+                                scrollDirection: Axis.horizontal,
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [],
+                                ),
                               ),
                               SingleChildScrollView(
                                 child: Column(
