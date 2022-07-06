@@ -52,7 +52,16 @@ class _PostnewWidgetState extends State<PostnewWidget> {
                 children: [
                   Column(
                     mainAxisSize: MainAxisSize.max,
-                    children: [],
+                    children: [
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                    ],
                   ),
                 ],
               ),
