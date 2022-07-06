@@ -46,6 +46,10 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
                 height: 250,
                 fit: BoxFit.cover,
               ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                children: [],
+              ),
               ListView(
                 padding: EdgeInsets.zero,
                 shrinkWrap: true,
