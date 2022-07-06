@@ -72,9 +72,12 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 children: [],
                               ),
-                              Column(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [],
+                              SingleChildScrollView(
+                                child: Column(
+                                  mainAxisSize: MainAxisSize.max,
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  children: [],
+                                ),
                               ),
                             ],
                           ),
