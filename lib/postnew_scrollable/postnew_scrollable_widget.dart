@@ -40,58 +40,82 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              Image.asset(
-                'assets/images/vs.png',
-                width: double.infinity,
-                height: 200,
-                fit: BoxFit.cover,
-              ),
               Container(
+                width: double.infinity,
                 height: 100,
                 decoration: BoxDecoration(
                   color: Color(0xFFEEEEEE),
                 ),
-                child: ListView(
-                  padding: EdgeInsets.zero,
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Container(
-                            width: double.infinity,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: FlutterFlowTheme.of(context)
-                                  .primaryBackground,
-                            ),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
-                                SingleChildScrollView(
-                                  scrollDirection: Axis.horizontal,
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    children: [],
-                                  ),
-                                ),
-                                SingleChildScrollView(
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
-                                    children: [],
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ],
-                      ),
+              ),
+              ListView(
+                padding: EdgeInsets.zero,
+                shrinkWrap: true,
+                scrollDirection: Axis.vertical,
+                children: [
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFFFF0030),
                     ),
-                  ],
-                ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: FlutterFlowTheme.of(context).secondaryColor,
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF873700),
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF701F1F),
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF522F2F),
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFFEEEEEE),
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFFEEEEEE),
+                    ),
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    decoration: BoxDecoration(
+                      color: Color(0xFF522F2F),
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
