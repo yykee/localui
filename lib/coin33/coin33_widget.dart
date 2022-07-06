@@ -4,14 +4,14 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class HomePageWidget extends StatefulWidget {
-  const HomePageWidget({Key key}) : super(key: key);
+class Coin33Widget extends StatefulWidget {
+  const Coin33Widget({Key key}) : super(key: key);
 
   @override
-  _HomePageWidgetState createState() => _HomePageWidgetState();
+  _Coin33WidgetState createState() => _Coin33WidgetState();
 }
 
-class _HomePageWidgetState extends State<HomePageWidget> {
+class _Coin33WidgetState extends State<Coin33Widget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -66,7 +66,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomePageWidget(),
+                              builder: (context) => Coin33Widget(),
                             ),
                           );
                         },
@@ -113,7 +113,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomePageWidget(),
+                                builder: (context) => Coin33Widget(),
                               ),
                             );
                           },
@@ -146,7 +146,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomePageWidget(),
+                              builder: (context) => Coin33Widget(),
                             ),
                           );
                         },
