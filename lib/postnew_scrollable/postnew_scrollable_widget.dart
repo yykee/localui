@@ -52,18 +52,20 @@ class _PostnewScrollableWidgetState extends State<PostnewScrollableWidget> {
                   shrinkWrap: true,
                   scrollDirection: Axis.vertical,
                   children: [
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [],
-                        ),
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [],
-                        ),
-                      ],
+                    SingleChildScrollView(
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [],
+                          ),
+                          Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [],
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
