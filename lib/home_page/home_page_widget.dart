@@ -54,77 +54,95 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Container(
-                        width: 100,
-                        height: 100,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFEEEEEE),
-                        ),
-                        child: Image.network(
-                          'https://picsum.photos/seed/844/600',
+              Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                child: Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Container(
                           width: 100,
                           height: 100,
-                          fit: BoxFit.cover,
+                          decoration: BoxDecoration(
+                            color: Color(0xFFEEEEEE),
+                            borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(0),
+                              bottomRight: Radius.circular(0),
+                              topLeft: Radius.circular(4),
+                              topRight: Radius.circular(4),
+                            ),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                            child: Image.asset(
+                              'assets/images/learn.png',
+                              width: 100,
+                              height: 100,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
                         ),
-                      ),
-                      Text(
-                        '练习',
-                        style: FlutterFlowTheme.of(context).bodyText1,
-                      ),
-                    ],
-                  ),
-                  Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Container(
-                        width: 100,
-                        height: 100,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFEEEEEE),
+                        Text(
+                          '练习',
+                          style: FlutterFlowTheme.of(context).bodyText1,
                         ),
-                        child: Image.network(
-                          'https://picsum.photos/seed/729/600',
+                      ],
+                    ),
+                    Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Container(
+                            width: 100,
+                            height: 100,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFEEEEEE),
+                            ),
+                            child: Image.asset(
+                              'assets/images/vs.png',
+                              width: 100,
+                              height: 100,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          Text(
+                            '比赛',
+                            style: FlutterFlowTheme.of(context).bodyText1,
+                          ),
+                        ],
+                      ),
+                    ),
+                    Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Container(
                           width: 100,
                           height: 100,
-                          fit: BoxFit.cover,
+                          decoration: BoxDecoration(
+                            color: Color(0xFFEEEEEE),
+                          ),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                            child: Image.asset(
+                              'assets/images/ranking.png',
+                              width: 100,
+                              height: 100,
+                              fit: BoxFit.cover,
+                            ),
+                          ),
                         ),
-                      ),
-                      Text(
-                        '比赛',
-                        style: FlutterFlowTheme.of(context).bodyText1,
-                      ),
-                    ],
-                  ),
-                  Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Container(
-                        width: 100,
-                        height: 100,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFEEEEEE),
+                        Text(
+                          '排行榜',
+                          style: FlutterFlowTheme.of(context).bodyText1,
                         ),
-                        child: Image.network(
-                          'https://picsum.photos/seed/726/600',
-                          width: 100,
-                          height: 100,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      Text(
-                        '排行榜',
-                        style: FlutterFlowTheme.of(context).bodyText1,
-                      ),
-                    ],
-                  ),
-                ],
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
