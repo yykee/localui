@@ -40,7 +40,7 @@ class _PostnewWidgetState extends State<PostnewWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               Image.asset(
-                'assets/images/learn.png',
+                'assets/images/ranking.png',
                 width: double.infinity,
                 height: 250,
                 fit: BoxFit.cover,
