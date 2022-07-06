@@ -51,63 +51,97 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    InkWell(
-                      onTap: () async {
-                        await Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => HomePageWidget(),
-                          ),
-                        );
-                      },
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: Color(0xFFEEEEEE),
-                              borderRadius: BorderRadius.only(
-                                bottomLeft: Radius.circular(0),
-                                bottomRight: Radius.circular(0),
-                                topLeft: Radius.circular(4),
-                                topRight: Radius.circular(4),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      InkWell(
+                        onTap: () async {
+                          await Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => HomePageWidget(),
+                            ),
+                          );
+                        },
+                        child: Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFEEEEEE),
+                                borderRadius: BorderRadius.only(
+                                  bottomLeft: Radius.circular(0),
+                                  bottomRight: Radius.circular(0),
+                                  topLeft: Radius.circular(4),
+                                  topRight: Radius.circular(4),
+                                ),
+                              ),
+                              child: Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                                child: ClipRRect(
+                                  borderRadius: BorderRadius.circular(0),
+                                  child: Image.asset(
+                                    'assets/images/learn.png',
+                                    width: 100,
+                                    height: 100,
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
                               ),
                             ),
-                            child: Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
-                              child: ClipRRect(
-                                borderRadius: BorderRadius.circular(0),
+                            Text(
+                              '练习',
+                              style: FlutterFlowTheme.of(context).bodyText1,
+                            ),
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                        child: InkWell(
+                          onTap: () async {
+                            await Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HomePageWidget(),
+                              ),
+                            );
+                          },
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Container(
+                                width: 100,
+                                height: 100,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFFEEEEEE),
+                                ),
                                 child: Image.asset(
-                                  'assets/images/learn.png',
+                                  'assets/images/vs.png',
                                   width: 100,
                                   height: 100,
                                   fit: BoxFit.cover,
                                 ),
                               ),
-                            ),
+                              Text(
+                                '比赛',
+                                style: FlutterFlowTheme.of(context).bodyText1,
+                              ),
+                            ],
                           ),
-                          Text(
-                            '练习',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                    Padding(
-                      padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
-                      child: InkWell(
+                      InkWell(
                         onTap: () async {
                           await Navigator.push(
                             context,
@@ -125,76 +159,44 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               decoration: BoxDecoration(
                                 color: Color(0xFFEEEEEE),
                               ),
-                              child: Image.asset(
-                                'assets/images/vs.png',
-                                width: 100,
-                                height: 100,
-                                fit: BoxFit.cover,
+                              child: Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
+                                child: Image.asset(
+                                  'assets/images/ranking.png',
+                                  width: 100,
+                                  height: 100,
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                             Text(
-                              '比赛',
+                              '排行榜',
                               style: FlutterFlowTheme.of(context).bodyText1,
                             ),
                           ],
                         ),
                       ),
+                    ],
+                  ),
+                ),
+                ListView(
+                  padding: EdgeInsets.zero,
+                  shrinkWrap: true,
+                  scrollDirection: Axis.vertical,
+                  children: [
+                    Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [],
                     ),
-                    InkWell(
-                      onTap: () async {
-                        await Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => HomePageWidget(),
-                          ),
-                        );
-                      },
-                      child: Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: Color(0xFFEEEEEE),
-                            ),
-                            child: Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
-                              child: Image.asset(
-                                'assets/images/ranking.png',
-                                width: 100,
-                                height: 100,
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                          Text(
-                            '排行榜',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                        ],
-                      ),
+                    Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [],
                     ),
                   ],
                 ),
-              ),
-              ListView(
-                padding: EdgeInsets.zero,
-                shrinkWrap: true,
-                scrollDirection: Axis.vertical,
-                children: [
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [],
-                  ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [],
-                  ),
-                ],
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
