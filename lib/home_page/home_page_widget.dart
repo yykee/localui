@@ -87,11 +87,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             child: Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 0, 0, 8),
-                              child: Image.asset(
-                                'assets/images/learn.png',
-                                width: 100,
-                                height: 100,
-                                fit: BoxFit.cover,
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(0),
+                                child: Image.asset(
+                                  'assets/images/learn.png',
+                                  width: 100,
+                                  height: 100,
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                           ),
@@ -180,7 +183,16 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 padding: EdgeInsets.zero,
                 shrinkWrap: true,
                 scrollDirection: Axis.vertical,
-                children: [],
+                children: [
+                  Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [],
+                  ),
+                  Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [],
+                  ),
+                ],
               ),
             ],
           ),
