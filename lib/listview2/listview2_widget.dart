@@ -52,47 +52,54 @@ class _Listview2WidgetState extends State<Listview2Widget> {
                 decoration: BoxDecoration(
                   color: Color(0xFFEEEEEE),
                 ),
+                child: Text(
+                  'Hello World',
+                  style: FlutterFlowTheme.of(context).bodyText1,
+                ),
               ),
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                  Image.network(
-                    'https://picsum.photos/seed/194/600',
-                    width: double.infinity,
-                    height: 100,
-                    fit: BoxFit.cover,
-                  ),
-                ],
+              Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                    Image.network(
+                      'https://picsum.photos/seed/194/600',
+                      width: double.infinity,
+                      height: 100,
+                      fit: BoxFit.cover,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
