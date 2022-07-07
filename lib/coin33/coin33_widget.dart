@@ -38,7 +38,7 @@ class _Coin33WidgetState extends State<Coin33Widget> {
         title: Text(
           'Page Title',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: '',
                 color: Colors.white,
                 fontSize: 22,
               ),

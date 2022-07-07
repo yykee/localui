@@ -3,14 +3,14 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Add1Widget extends StatefulWidget {
-  const Add1Widget({Key key}) : super(key: key);
+class HomeWidget extends StatefulWidget {
+  const HomeWidget({Key key}) : super(key: key);
 
   @override
-  _Add1WidgetState createState() => _Add1WidgetState();
+  _HomeWidgetState createState() => _HomeWidgetState();
 }
 
-class _Add1WidgetState extends State<Add1Widget> {
+class _HomeWidgetState extends State<HomeWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -33,26 +33,6 @@ class _Add1WidgetState extends State<Add1Widget> {
         elevation: 2,
       ),
       backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-      body: SafeArea(
-        child: GestureDetector(
-          onTap: () => FocusScope.of(context).unfocus(),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                children: [],
-              ),
-              ListView(
-                padding: EdgeInsets.zero,
-                shrinkWrap: true,
-                scrollDirection: Axis.vertical,
-                children: [],
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

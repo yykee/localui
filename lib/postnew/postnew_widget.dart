@@ -23,7 +23,7 @@ class _PostnewWidgetState extends State<PostnewWidget> {
         title: Text(
           'Page Title',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: '',
                 color: Colors.white,
                 fontSize: 22,
               ),
