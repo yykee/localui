@@ -52,9 +52,32 @@ class _Listview2WidgetState extends State<Listview2Widget> {
                 decoration: BoxDecoration(
                   color: Color(0xFFEEEEEE),
                 ),
-                child: Text(
-                  'Hello World',
-                  style: FlutterFlowTheme.of(context).bodyText1,
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [],
+                        ),
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                    ],
+                  ),
                 ),
               ),
               Padding(

@@ -52,9 +52,26 @@ class _PostnewWidgetState extends State<PostnewWidget> {
                   decoration: BoxDecoration(
                     color: Color(0xFFEEEEEE),
                   ),
-                  child: Row(
+                  child: Column(
                     mainAxisSize: MainAxisSize.max,
-                    children: [],
+                    children: [
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                    ],
                   ),
                 ),
                 ListView(
@@ -62,114 +79,6 @@ class _PostnewWidgetState extends State<PostnewWidget> {
                   shrinkWrap: true,
                   scrollDirection: Axis.vertical,
                   children: [
-                    Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFEEEEEE),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Image.network(
-                            'https://picsum.photos/seed/908/600',
-                            width: 100,
-                            height: 100,
-                            fit: BoxFit.cover,
-                          ),
-                          Text(
-                            'Hello World',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                          Icon(
-                            Icons.settings_outlined,
-                            color: Colors.black,
-                            size: 24,
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFEEEEEE),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Image.network(
-                            'https://picsum.photos/seed/908/600',
-                            width: 100,
-                            height: 100,
-                            fit: BoxFit.cover,
-                          ),
-                          Text(
-                            'Hello World',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                          Icon(
-                            Icons.settings_outlined,
-                            color: Colors.black,
-                            size: 24,
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFEEEEEE),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Image.network(
-                            'https://picsum.photos/seed/908/600',
-                            width: 100,
-                            height: 100,
-                            fit: BoxFit.cover,
-                          ),
-                          Text(
-                            'Hello World',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                          Icon(
-                            Icons.settings_outlined,
-                            color: Colors.black,
-                            size: 24,
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(
-                      width: 100,
-                      height: 100,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFEEEEEE),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Image.network(
-                            'https://picsum.photos/seed/908/600',
-                            width: 100,
-                            height: 100,
-                            fit: BoxFit.cover,
-                          ),
-                          Text(
-                            'Hello World',
-                            style: FlutterFlowTheme.of(context).bodyText1,
-                          ),
-                          Icon(
-                            Icons.settings_outlined,
-                            color: Colors.black,
-                            size: 24,
-                          ),
-                        ],
-                      ),
-                    ),
                     Container(
                       width: 100,
                       height: 100,
