@@ -23,7 +23,7 @@ class _PostnewWidgetState extends State<PostnewWidget> {
         title: Text(
           'Page Title',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: '',
+                fontFamily: 'Poppins',
                 color: Colors.white,
                 fontSize: 22,
               ),
@@ -36,36 +36,47 @@ class _PostnewWidgetState extends State<PostnewWidget> {
       body: SafeArea(
         child: GestureDetector(
           onTap: () => FocusScope.of(context).unfocus(),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Image.asset(
-                'assets/images/ranking.png',
-                width: double.infinity,
-                height: 250,
-                fit: BoxFit.cover,
-              ),
-              ListView(
-                padding: EdgeInsets.zero,
-                shrinkWrap: true,
-                scrollDirection: Axis.vertical,
-                children: [
-                  Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [],
-                      ),
-                      Row(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [],
-                      ),
-                    ],
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Image.asset(
+                  'assets/images/ranking.png',
+                  width: double.infinity,
+                  height: 250,
+                  fit: BoxFit.cover,
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 100,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFEEEEEE),
                   ),
-                ],
-              ),
-            ],
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [],
+                  ),
+                ),
+                ListView(
+                  padding: EdgeInsets.zero,
+                  shrinkWrap: true,
+                  scrollDirection: Axis.vertical,
+                  children: [
+                    Container(
+                      width: 100,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        color: Color(0xFFEEEEEE),
+                      ),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ),
         ),
       ),

@@ -31,10 +31,10 @@ class _AbcdWidgetState extends State<AbcdWidget> {
         title: Text(
           'Classes',
           style: FlutterFlowTheme.of(context).title1.override(
-                fontFamily: 'Lexend Deca',
-                color: Color(0xFF090F13),
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+                fontFamily: '',
+                color: Color(0x00000000),
+                fontSize: 0,
+                fontWeight: FontWeight.normal,
               ),
         ),
         actions: [],
@@ -74,9 +74,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                           hintText: 'Search for classes here...',
                           hintStyle:
                               FlutterFlowTheme.of(context).bodyText2.override(
-                                    fontFamily: 'Lexend Deca',
-                                    color: Color(0xFF95A1AC),
-                                    fontSize: 14,
+                                    fontFamily: '',
+                                    color: Color(0x00000000),
+                                    fontSize: 0,
                                     fontWeight: FontWeight.normal,
                                   ),
                           enabledBorder: OutlineInputBorder(
@@ -100,9 +100,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                           ),
                         ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
-                              fontFamily: 'Lexend Deca',
-                              color: Color(0xFF090F13),
-                              fontSize: 14,
+                              fontFamily: '',
+                              color: Color(0x00000000),
+                              fontSize: 0,
                               fontWeight: FontWeight.normal,
                             ),
                       ),
@@ -119,9 +119,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                   Text(
                     'Workout Categories',
                     style: FlutterFlowTheme.of(context).bodyText2.override(
-                          fontFamily: 'Lexend Deca',
-                          color: Color(0xFF95A1AC),
-                          fontSize: 14,
+                          fontFamily: '',
+                          color: Color(0x00000000),
+                          fontSize: 0,
                           fontWeight: FontWeight.normal,
                         ),
                   ),
@@ -175,9 +175,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
-                                        fontFamily: 'Lexend Deca',
-                                        color: Color(0xFF95A1AC),
-                                        fontSize: 14,
+                                        fontFamily: '',
+                                        color: Color(0x00000000),
+                                        fontSize: 0,
                                         fontWeight: FontWeight.normal,
                                       ),
                                 ),
@@ -227,9 +227,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
-                                        fontFamily: 'Lexend Deca',
-                                        color: Color(0xFF95A1AC),
-                                        fontSize: 14,
+                                        fontFamily: '',
+                                        color: Color(0x00000000),
+                                        fontSize: 0,
                                         fontWeight: FontWeight.normal,
                                       ),
                                 ),
@@ -355,7 +355,7 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                           width: 100,
                           height: 100,
                           decoration: BoxDecoration(
-                            color: Color(0xFF540C0C),
+                            color: Colors.white,
                             borderRadius: BorderRadius.circular(8),
                           ),
                           child: Column(
@@ -407,9 +407,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                   Text(
                     'Upcoming Classes',
                     style: FlutterFlowTheme.of(context).bodyText2.override(
-                          fontFamily: 'Lexend Deca',
-                          color: Color(0xFF95A1AC),
-                          fontSize: 14,
+                          fontFamily: '',
+                          color: Color(0x00000000),
+                          fontSize: 0,
                           fontWeight: FontWeight.normal,
                         ),
                   ),
@@ -478,10 +478,10 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Lexend Deca',
-                                              color: Color(0xFF090F13),
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold,
+                                              fontFamily: '',
+                                              color: Color(0x00000000),
+                                              fontSize: 0,
+                                              fontWeight: FontWeight.normal,
                                             ),
                                       ),
                                       Text(
@@ -591,10 +591,10 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Lexend Deca',
-                                              color: Color(0xFF090F13),
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold,
+                                              fontFamily: '',
+                                              color: Color(0x00000000),
+                                              fontSize: 0,
+                                              fontWeight: FontWeight.normal,
                                             ),
                                       ),
                                       Text(
@@ -704,10 +704,10 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
-                                              fontFamily: 'Lexend Deca',
-                                              color: Color(0xFF090F13),
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold,
+                                              fontFamily: '',
+                                              color: Color(0x00000000),
+                                              fontSize: 0,
+                                              fontWeight: FontWeight.normal,
                                             ),
                                       ),
                                       Text(

@@ -95,33 +95,54 @@ class ThemeTypography extends Typography {
 
   final FlutterFlowTheme theme;
 
-  String get title1Family => '';
+  String get title1Family => 'Poppins';
   TextStyle get title1 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.primaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 24,
       );
-  String get title2Family => '';
+  String get title2Family => 'Poppins';
   TextStyle get title2 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.secondaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 22,
       );
-  String get title3Family => '';
+  String get title3Family => 'Poppins';
   TextStyle get title3 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.primaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 20,
       );
-  String get subtitle1Family => '';
+  String get subtitle1Family => 'Poppins';
   TextStyle get subtitle1 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.primaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 18,
       );
-  String get subtitle2Family => '';
+  String get subtitle2Family => 'Poppins';
   TextStyle get subtitle2 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.secondaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 16,
       );
-  String get bodyText1Family => '';
+  String get bodyText1Family => 'Poppins';
   TextStyle get bodyText1 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.primaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 14,
       );
-  String get bodyText2Family => '';
+  String get bodyText2Family => 'Poppins';
   TextStyle get bodyText2 => GoogleFonts.getFont(
-        'Roboto',
+        'Poppins',
+        color: theme.secondaryText,
+        fontWeight: FontWeight.w600,
+        fontSize: 14,
       );
 }
 

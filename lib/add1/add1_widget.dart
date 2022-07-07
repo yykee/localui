@@ -23,7 +23,7 @@ class _Add1WidgetState extends State<Add1Widget> {
         title: Text(
           'Page Title',
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: '',
+                fontFamily: 'Poppins',
                 color: Colors.white,
                 fontSize: 22,
               ),
