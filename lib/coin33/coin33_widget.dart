@@ -180,21 +180,6 @@ class _Coin33WidgetState extends State<Coin33Widget> {
                     ],
                   ),
                 ),
-                ListView(
-                  padding: EdgeInsets.zero,
-                  shrinkWrap: true,
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    Row(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [],
-                    ),
-                    Row(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [],
-                    ),
-                  ],
-                ),
               ],
             ),
           ),
