@@ -1,5 +1,5 @@
 // Export pages
-export 'coin33/coin33_widget.dart' show Coin33Widget;
+export 'gameslist/gameslist_widget.dart' show GameslistWidget;
 export 'add1/add1_widget.dart' show Add1Widget;
 export 'postnew/postnew_widget.dart' show PostnewWidget;
 export 'home/home_widget.dart' show HomeWidget;

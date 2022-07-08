@@ -4,14 +4,14 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Coin33Widget extends StatefulWidget {
-  const Coin33Widget({Key key}) : super(key: key);
+class GameslistWidget extends StatefulWidget {
+  const GameslistWidget({Key key}) : super(key: key);
 
   @override
-  _Coin33WidgetState createState() => _Coin33WidgetState();
+  _GameslistWidgetState createState() => _GameslistWidgetState();
 }
 
-class _Coin33WidgetState extends State<Coin33Widget> {
+class _GameslistWidgetState extends State<GameslistWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -66,7 +66,7 @@ class _Coin33WidgetState extends State<Coin33Widget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Coin33Widget(),
+                              builder: (context) => GameslistWidget(),
                             ),
                           );
                         },
@@ -113,7 +113,7 @@ class _Coin33WidgetState extends State<Coin33Widget> {
                             await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => Coin33Widget(),
+                                builder: (context) => GameslistWidget(),
                               ),
                             );
                           },
@@ -146,7 +146,7 @@ class _Coin33WidgetState extends State<Coin33Widget> {
                           await Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => Coin33Widget(),
+                              builder: (context) => GameslistWidget(),
                             ),
                           );
                         },
@@ -179,6 +179,17 @@ class _Coin33WidgetState extends State<Coin33Widget> {
                       ),
                     ],
                   ),
+                ),
+                ListView(
+                  padding: EdgeInsets.zero,
+                  shrinkWrap: true,
+                  scrollDirection: Axis.vertical,
+                  children: [
+                    Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [],
+                    ),
+                  ],
                 ),
               ],
             ),
