@@ -188,16 +188,19 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                     ],
                   ),
                 ),
-                ListView(
-                  padding: EdgeInsets.zero,
-                  shrinkWrap: true,
-                  scrollDirection: Axis.vertical,
-                  children: [
-                    Column(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [],
-                    ),
-                  ],
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(20, 0, 20, 0),
+                  child: ListView(
+                    padding: EdgeInsets.zero,
+                    shrinkWrap: true,
+                    scrollDirection: Axis.vertical,
+                    children: [
+                      Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [],
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
