@@ -21,7 +21,9 @@ class _PostnewWidgetState extends State<PostnewWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            'rdb871ew' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Poppins',
                 color: Colors.white,
@@ -95,7 +97,9 @@ class _PostnewWidgetState extends State<PostnewWidget> {
                             fit: BoxFit.cover,
                           ),
                           Text(
-                            'Hello World',
+                            FFLocalizations.of(context).getText(
+                              'r1ijg1ma' /* Hello World */,
+                            ),
                             style: FlutterFlowTheme.of(context).bodyText1,
                           ),
                           Icon(

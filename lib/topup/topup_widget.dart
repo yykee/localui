@@ -29,7 +29,9 @@ class _TopupWidgetState extends State<TopupWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            '8q9alsst' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Poppins',
                 color: Colors.white,
@@ -60,7 +62,9 @@ class _TopupWidgetState extends State<TopupWidget> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      'key in the amount you wish to top up',
+                      FFLocalizations.of(context).getText(
+                        'qyqvpfe0' /* key in the amount you wish to ... */,
+                      ),
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Open Sans',
@@ -97,7 +101,9 @@ class _TopupWidgetState extends State<TopupWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                                 child: Text(
-                                  'RM',
+                                  FFLocalizations.of(context).getText(
+                                    'iyayo0ie' /* RM */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -129,7 +135,10 @@ class _TopupWidgetState extends State<TopupWidget> {
                                           color: Color(0xFF0E8700),
                                           fontSize: 50,
                                         ),
-                                    hintText: '0.00',
+                                    hintText:
+                                        FFLocalizations.of(context).getText(
+                                      'm6qprl70' /* 0.00 */,
+                                    ),
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyText2
                                         .override(
@@ -183,7 +192,9 @@ class _TopupWidgetState extends State<TopupWidget> {
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: 'Button',
+                  text: FFLocalizations.of(context).getText(
+                    'b37oh9vq' /* Button */,
+                  ),
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 60,

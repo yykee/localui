@@ -29,7 +29,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
         backgroundColor: Colors.white,
         automaticallyImplyLeading: false,
         title: Text(
-          'Classes',
+          FFLocalizations.of(context).getText(
+            'kqc8s22t' /* Classes */,
+          ),
           style: FlutterFlowTheme.of(context).title1.override(
                 fontFamily: '',
                 color: Color(0x00000000),
@@ -71,7 +73,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                         controller: searchFieldController,
                         obscureText: false,
                         decoration: InputDecoration(
-                          hintText: 'Search for classes here...',
+                          hintText: FFLocalizations.of(context).getText(
+                            'gjpaa72r' /* Search for classes here... */,
+                          ),
                           hintStyle:
                               FlutterFlowTheme.of(context).bodyText2.override(
                                     fontFamily: '',
@@ -117,7 +121,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
-                    'Workout Categories',
+                    FFLocalizations.of(context).getText(
+                      'y33sq8jw' /* Workout Categories */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText2.override(
                           fontFamily: '',
                           color: Color(0x00000000),
@@ -171,7 +177,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: Text(
-                                  'Yoga',
+                                  FFLocalizations.of(context).getText(
+                                    '7e3nse1p' /* Yoga */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
@@ -223,7 +231,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: Text(
-                                  'Karate',
+                                  FFLocalizations.of(context).getText(
+                                    'fuvkjsa8' /* Karate */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
@@ -275,7 +285,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: Text(
-                                  'Weightroom',
+                                  FFLocalizations.of(context).getText(
+                                    'v89s6pts' /* Weightroom */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
@@ -327,7 +339,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: Text(
-                                  'Cycling',
+                                  FFLocalizations.of(context).getText(
+                                    'uyvsg0qe' /* Cycling */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
@@ -379,7 +393,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                 child: Text(
-                                  'Running',
+                                  FFLocalizations.of(context).getText(
+                                    'qq86h2k2' /* Running */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText2
                                       .override(
@@ -405,7 +421,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
-                    'Upcoming Classes',
+                    FFLocalizations.of(context).getText(
+                      'ezavospe' /* Upcoming Classes */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText2.override(
                           fontFamily: '',
                           color: Color(0x00000000),
@@ -474,7 +492,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Class Name',
+                                        FFLocalizations.of(context).getText(
+                                          'nt4k147n' /* Class Name */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
@@ -485,7 +505,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '30m | High Intensity | Indoor/Outdoor',
+                                        FFLocalizations.of(context).getText(
+                                          'ifwvbyz5' /* 30m | High Intensity | Indoor/... */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -506,7 +528,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                       onPressed: () {
                                         print('Button-Reserve pressed ...');
                                       },
-                                      text: 'Reserve',
+                                      text: FFLocalizations.of(context).getText(
+                                        'ifrl2j9g' /* Reserve */,
+                                      ),
                                       icon: Icon(
                                         Icons.add_rounded,
                                         color: Colors.white,
@@ -587,7 +611,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Class Name',
+                                        FFLocalizations.of(context).getText(
+                                          'iw4ynp79' /* Class Name */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
@@ -598,7 +624,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '30m | High Intensity | Indoor/Outdoor',
+                                        FFLocalizations.of(context).getText(
+                                          'x3kn26bv' /* 30m | High Intensity | Indoor/... */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -619,7 +647,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                       onPressed: () {
                                         print('Button-Reserve pressed ...');
                                       },
-                                      text: 'Reserve',
+                                      text: FFLocalizations.of(context).getText(
+                                        'ryoq0e6k' /* Reserve */,
+                                      ),
                                       icon: Icon(
                                         Icons.add_rounded,
                                         color: Colors.white,
@@ -700,7 +730,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Class Name',
+                                        FFLocalizations.of(context).getText(
+                                          'li7zot82' /* Class Name */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .title2
                                             .override(
@@ -711,7 +743,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                             ),
                                       ),
                                       Text(
-                                        '30m | High Intensity | Indoor/Outdoor',
+                                        FFLocalizations.of(context).getText(
+                                          'l9kvgs6b' /* 30m | High Intensity | Indoor/... */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -732,7 +766,9 @@ class _AbcdWidgetState extends State<AbcdWidget> {
                                       onPressed: () {
                                         print('Button-Reserve pressed ...');
                                       },
-                                      text: 'Reserve',
+                                      text: FFLocalizations.of(context).getText(
+                                        'ek6v4o4s' /* Reserve */,
+                                      ),
                                       icon: Icon(
                                         Icons.add_rounded,
                                         color: Colors.white,

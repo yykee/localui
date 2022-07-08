@@ -36,7 +36,9 @@ class _GameslistWidgetState extends State<GameslistWidget> {
           },
         ),
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            'hvg3u1bs' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Poppins',
                 color: Colors.white,
@@ -100,7 +102,9 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                               ),
                             ),
                             Text(
-                              '练习',
+                              FFLocalizations.of(context).getText(
+                                '7mo4yj6p' /* 练习 */,
+                              ),
                               style: FlutterFlowTheme.of(context).bodyText1,
                             ),
                           ],
@@ -134,7 +138,9 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                                 ),
                               ),
                               Text(
-                                '比赛',
+                                FFLocalizations.of(context).getText(
+                                  '4s2j1ign' /* 比赛 */,
+                                ),
                                 style: FlutterFlowTheme.of(context).bodyText1,
                               ),
                             ],
@@ -171,7 +177,9 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                               ),
                             ),
                             Text(
-                              '排行榜',
+                              FFLocalizations.of(context).getText(
+                                'iv5g24li' /* 排行榜 */,
+                              ),
                               style: FlutterFlowTheme.of(context).bodyText1,
                             ),
                           ],
