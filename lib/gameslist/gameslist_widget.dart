@@ -103,7 +103,7 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                '7mo4yj6p' /* 练习 */,
+                                '练习' /* 练习 */,
                               ),
                               style: FlutterFlowTheme.of(context).bodyText1,
                             ),
@@ -139,7 +139,7 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                               ),
                               Text(
                                 FFLocalizations.of(context).getText(
-                                  '4s2j1ign' /* 比赛 */,
+                                  '比赛' /* 比赛 */,
                                 ),
                                 style: FlutterFlowTheme.of(context).bodyText1,
                               ),
@@ -178,7 +178,7 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                             ),
                             Text(
                               FFLocalizations.of(context).getText(
-                                'iv5g24li' /* 排行榜 */,
+                                '排行榜' /* 排行榜 */,
                               ),
                               style: FlutterFlowTheme.of(context).bodyText1,
                             ),
@@ -197,7 +197,9 @@ class _GameslistWidgetState extends State<GameslistWidget> {
                     children: [
                       Column(
                         mainAxisSize: MainAxisSize.max,
-                        children: [],
+                        children: [
+
+                        ],
                       ),
                     ],
                   ),
