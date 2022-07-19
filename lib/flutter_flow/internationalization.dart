@@ -479,62 +479,62 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // test
   {
-    'vtj48da7': {
+    '10dcd4zn': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    'v2uzyfg2': {
+    'ysym6d35': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '8ku2s5qo': {
+    'wxbwy4tx': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '690xwfsx': {
+    'l8zo9c59': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '65bpbp2k': {
+    'jixl4hxa': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '056glbt2': {
+    '4z4lfz1a': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    'fv1vd2kt': {
+    'rb9wylpg': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    'uvj73h8k': {
+    'h0001zqm': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    'lo87d0sf': {
+    's935pnxi': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    'tx6k0eyi': {
+    'gsq3ifbg': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '5155x65u': {
+    '5rd20hfs': {
       'zh_Hans': 'Hello World',
       'en': '',
       'ms': '',
     },
-    '3uw88vm3': {
+    '69kkxv1t': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',

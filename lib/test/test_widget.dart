@@ -53,7 +53,7 @@ class _TestWidgetState extends State<TestWidget> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 10, 0, 0),
+                        padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
                           children: [
