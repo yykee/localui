@@ -25,7 +25,7 @@ class _Test123WidgetState extends State<Test123Widget> {
             'h8bg9imr' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontSize: 22,
               ),

@@ -280,4 +280,214 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ms': '',
     },
   },
+  // redeemlog
+  {
+    '8f5grk81': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'p7rpa99b': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // redeem1
+  {
+    '2hnwmkf9': {
+      'zh_Hans': 'Search events here...',
+      'en': '',
+      'ms': '',
+    },
+    'wtl58ywu': {
+      'zh_Hans': 'Store/Location Name',
+      'en': '',
+      'ms': '',
+    },
+    'a2ovkqm8': {
+      'zh_Hans': '123 Address St, City, ST',
+      'en': '',
+      'ms': '',
+    },
+    'f2dgl414': {
+      'zh_Hans': 'Store/Location Name',
+      'en': '',
+      'ms': '',
+    },
+    'ln5svgcf': {
+      'zh_Hans': '123 Address St, City, ST',
+      'en': '',
+      'ms': '',
+    },
+    '8g0i5dme': {
+      'zh_Hans': '1.7mi',
+      'en': '',
+      'ms': '',
+    },
+    '8gzwpvnx': {
+      'zh_Hans': 'Store/Location Name',
+      'en': '',
+      'ms': '',
+    },
+    'q6pybppm': {
+      'zh_Hans': '123 Address St, City, ST',
+      'en': '',
+      'ms': '',
+    },
+    'n8k0aaar': {
+      'zh_Hans': '1.7mi',
+      'en': '',
+      'ms': '',
+    },
+    '2v1556yx': {
+      'zh_Hans': 'Store/Location Name',
+      'en': '',
+      'ms': '',
+    },
+    'hxgli55z': {
+      'zh_Hans': '123 Address St, City, ST',
+      'en': '',
+      'ms': '',
+    },
+    '6koma90c': {
+      'zh_Hans': '1.7mi',
+      'en': '',
+      'ms': '',
+    },
+    'nba95jcw': {
+      'zh_Hans': 'Store/Location Name',
+      'en': '',
+      'ms': '',
+    },
+    '2htvx111': {
+      'zh_Hans': '123 Address St, City, ST',
+      'en': '',
+      'ms': '',
+    },
+    '7pn6fcdl': {
+      'zh_Hans': '1.7mi',
+      'en': '',
+      'ms': '',
+    },
+    'qn66ml0p': {
+      'zh_Hans': 'Map View',
+      'en': '',
+      'ms': '',
+    },
+    'epit51ii': {
+      'zh_Hans': 'Shop',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // newpage
+  {
+    'zpy3exox': {
+      'zh_Hans': 'Tel',
+      'en': '',
+      'ms': '',
+    },
+    'u766yhz5': {
+      'zh_Hans': 'Tel',
+      'en': '',
+      'ms': '',
+    },
+    'mxlitd5x': {
+      'zh_Hans': '[Some hint text...]',
+      'en': '',
+      'ms': '',
+    },
+    'z7fyteru': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'dsj706vu': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // amount1
+  {
+    '1cd9202y': {
+      'zh_Hans': 'Add Transaction',
+      'en': '',
+      'ms': '',
+    },
+    '5rn7y4ip': {
+      'zh_Hans': 'Amount',
+      'en': '',
+      'ms': '',
+    },
+    'cbv0qr4w': {
+      'zh_Hans': 'Spent At',
+      'en': '',
+      'ms': '',
+    },
+    'q0w0nvqz': {
+      'zh_Hans': 'Office Budget',
+      'en': '',
+      'ms': '',
+    },
+    'dt6yly0b': {
+      'zh_Hans': 'External Transfer',
+      'en': '',
+      'ms': '',
+    },
+    'm6hpznx8': {
+      'zh_Hans': 'ACH Payment',
+      'en': '',
+      'ms': '',
+    },
+    'nyyrs6zs': {
+      'zh_Hans': 'Type of Transfer',
+      'en': '',
+      'ms': '',
+    },
+    'tyd649ly': {
+      'zh_Hans': 'Reason',
+      'en': '',
+      'ms': '',
+    },
+    'hx2o3hk4': {
+      'zh_Hans': 'Please type the reason here...',
+      'en': '',
+      'ms': '',
+    },
+    'z3r5idmx': {
+      'zh_Hans': 'Add Transaction',
+      'en': '',
+      'ms': '',
+    },
+    'mec6mxzs': {
+      'zh_Hans': 'Tap above to complete request',
+      'en': '',
+      'ms': '',
+    },
+    'k7syrspr': {
+      'zh_Hans': 'Please enter an amount',
+      'en': '',
+      'ms': '',
+    },
+    'lxygqkqb': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // test
+  {
+    'qlf3v334': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'tq4hvjsi': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
 ].reduce((a, b) => a..addAll(b));

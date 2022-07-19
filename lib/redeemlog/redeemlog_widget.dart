@@ -3,14 +3,14 @@ import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Add1Widget extends StatefulWidget {
-  const Add1Widget({Key key}) : super(key: key);
+class RedeemlogWidget extends StatefulWidget {
+  const RedeemlogWidget({Key key}) : super(key: key);
 
   @override
-  _Add1WidgetState createState() => _Add1WidgetState();
+  _RedeemlogWidgetState createState() => _RedeemlogWidgetState();
 }
 
-class _Add1WidgetState extends State<Add1Widget> {
+class _RedeemlogWidgetState extends State<RedeemlogWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -22,7 +22,7 @@ class _Add1WidgetState extends State<Add1Widget> {
         automaticallyImplyLeading: false,
         title: Text(
           FFLocalizations.of(context).getText(
-            '27er7xkd' /* Page Title */,
+            '8f5grk81' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Roboto',
@@ -40,18 +40,7 @@ class _Add1WidgetState extends State<Add1Widget> {
           onTap: () => FocusScope.of(context).unfocus(),
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            children: [
-              Row(
-                mainAxisSize: MainAxisSize.max,
-                children: [],
-              ),
-              ListView(
-                padding: EdgeInsets.zero,
-                shrinkWrap: true,
-                scrollDirection: Axis.vertical,
-                children: [],
-              ),
-            ],
+            children: [],
           ),
         ),
       ),

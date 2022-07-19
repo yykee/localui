@@ -25,7 +25,7 @@ class _Listview2WidgetState extends State<Listview2Widget> {
             'c97k007d' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontSize: 22,
               ),

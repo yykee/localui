@@ -25,7 +25,7 @@ class _HomeWidgetState extends State<HomeWidget> {
             'r34tcg1b' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontSize: 22,
               ),

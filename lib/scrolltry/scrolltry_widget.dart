@@ -25,7 +25,7 @@ class _ScrolltryWidgetState extends State<ScrolltryWidget> {
             '55thjtog' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontSize: 22,
               ),

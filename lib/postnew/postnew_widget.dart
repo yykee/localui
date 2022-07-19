@@ -25,7 +25,7 @@ class _PostnewWidgetState extends State<PostnewWidget> {
             'rdb871ew' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'Roboto',
                 color: Colors.white,
                 fontSize: 22,
               ),
