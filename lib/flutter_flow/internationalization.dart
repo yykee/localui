@@ -479,77 +479,77 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // bankinfo
   {
-    'cnk7hsbj': {
+    '09h3614x': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    'd0cy0vxw': {
+    'y4ehby6i': {
       'zh_Hans': '银行信息',
       'en': '',
       'ms': '',
     },
-    'fcq7rcc0': {
+    'bc7p2efx': {
       'zh_Hans': '银行名称',
       'en': '',
       'ms': '',
     },
-    '236v7jmj': {
+    'a8l2sf22': {
       'zh_Hans': '银行账户',
       'en': '',
       'ms': '',
     },
-    'yptgtu1g': {
+    'zzg327i6': {
       'zh_Hans': '姓名',
       'en': '',
       'ms': '',
     },
-    'xkei5do3': {
+    '9dcbvxj2': {
       'zh_Hans': '手机',
       'en': '',
       'ms': '',
     },
-    '24delq80': {
+    'juzp8vet': {
       'zh_Hans': '你的电邮',
       'en': '',
       'ms': '',
     },
-    'n0mwi5i6': {
+    'npzjzivj': {
       'zh_Hans': 'RHB',
       'en': '',
       'ms': '',
     },
-    'zu4tb2yt': {
+    'ayij9wgs': {
       'zh_Hans': '4081610213',
       'en': '',
       'ms': '',
     },
-    's87bco5i': {
+    '53h4tsem': {
       'zh_Hans': 'YAP YANG KEE',
       'en': '',
       'ms': '',
     },
-    'iecaoymy': {
+    'nu8ocj8b': {
       'zh_Hans': '60128971106',
       'en': '',
       'ms': '',
     },
-    'gqsm6idz': {
+    'wey0dflo': {
       'zh_Hans': 'yykee1981@yahoo.com',
       'en': '',
       'ms': '',
     },
-    'g1zoren1': {
+    'ocrnrcew': {
       'zh_Hans': '添加修改',
       'en': '',
       'ms': '',
     },
-    'zws6r8p9': {
+    'vrsh0b47': {
       'zh_Hans': '现金交易记录',
       'en': '',
       'ms': '',
     },
-    'kbk927sg': {
+    'mhg0yc5z': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',
