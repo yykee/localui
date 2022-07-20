@@ -1,5 +1,7 @@
+import '../add1/add1_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -43,7 +45,7 @@ class _TestWidgetState extends State<TestWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                 child: Container(
                   width: double.infinity,
-                  height: 150,
+                  height: 230,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -52,151 +54,188 @@ class _TestWidgetState extends State<TestWidget> {
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Text(
-                              'Hello World',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Roboto',
-                                    fontWeight: FontWeight.normal,
-                                  ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(20, 5, 0, 5),
+                            child: Text(
+                              '银行信息',
+                              style: FlutterFlowTheme.of(context).title3,
                             ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                              child: Text(
-                                'Hello World',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
-                                    .override(
-                                      fontFamily: 'Roboto',
-                                      fontWeight: FontWeight.normal,
-                                    ),
+                          ),
+                        ],
+                      ),
+                      Divider(
+                        thickness: 0.3,
+                        color: FlutterFlowTheme.of(context).secondaryText,
+                      ),
+                      Row(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Column(
+                            mainAxisSize: MainAxisSize.max,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Text(
+                                  '银行名称',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
                               ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Text(
+                                  '银行账户',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Text(
+                                  '姓名',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Text(
+                                  '手机',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
+                              ),
+                              Padding(
+                                padding:
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                child: Text(
+                                  '你的电邮',
+                                  style: FlutterFlowTheme.of(context).bodyText1,
+                                ),
+                              ),
+                            ],
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'RHB',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Roboto',
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                ),
+                                Text(
+                                  '4081610213',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Roboto',
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                ),
+                                Text(
+                                  'YAP YANG KEE',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Roboto',
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                ),
+                                Text(
+                                  '60128971106',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Roboto',
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                ),
+                                Text(
+                                  'yykee1981@yahoo.com',
+                                  style: FlutterFlowTheme.of(context)
+                                      .bodyText1
+                                      .override(
+                                        fontFamily: 'Roboto',
+                                        fontWeight: FontWeight.w500,
+                                      ),
+                                ),
+                              ],
                             ),
-                          ],
-                        ),
+                          ),
+                        ],
                       ),
                       Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 5, 0, 0),
+                        padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
-                            Text(
-                              'Hello World',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Roboto',
-                                    fontWeight: FontWeight.normal,
+                            FFButtonWidget(
+                              onPressed: () async {
+                                await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => Add1Widget(),
                                   ),
-                            ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                              child: Text(
-                                'Hello World',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                );
+                              },
+                              text: '添加修改',
+                              options: FFButtonOptions(
+                                width: 130,
+                                height: 40,
+                                color: Color(0xFF0E8700),
+                                textStyle: FlutterFlowTheme.of(context)
+                                    .subtitle2
                                     .override(
                                       fontFamily: 'Roboto',
-                                      fontWeight: FontWeight.normal,
+                                      color: Colors.white,
                                     ),
+                                borderSide: BorderSide(
+                                  color: Colors.transparent,
+                                  width: 1,
+                                ),
+                                borderRadius: BorderRadius.circular(8),
                               ),
                             ),
-                          ],
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 5, 0, 0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Text(
-                              'Hello World',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Roboto',
-                                    fontWeight: FontWeight.normal,
+                            FFButtonWidget(
+                              onPressed: () async {
+                                await Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => Add1Widget(),
                                   ),
-                            ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                              child: Text(
-                                'Hello World',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
+                                );
+                              },
+                              text: '现金交易记录',
+                              options: FFButtonOptions(
+                                width: 130,
+                                height: 40,
+                                color:
+                                    FlutterFlowTheme.of(context).primaryColor,
+                                textStyle: FlutterFlowTheme.of(context)
+                                    .subtitle2
                                     .override(
                                       fontFamily: 'Roboto',
-                                      fontWeight: FontWeight.normal,
+                                      color: Colors.white,
                                     ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 5, 0, 0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Text(
-                              'Hello World',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Roboto',
-                                    fontWeight: FontWeight.normal,
-                                  ),
-                            ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                              child: Text(
-                                'Hello World',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
-                                    .override(
-                                      fontFamily: 'Roboto',
-                                      fontWeight: FontWeight.normal,
-                                    ),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(20, 5, 0, 0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Text(
-                              'Hello World',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyText1
-                                  .override(
-                                    fontFamily: 'Roboto',
-                                    fontWeight: FontWeight.normal,
-                                  ),
-                            ),
-                            Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                              child: Text(
-                                'Hello World',
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
-                                    .override(
-                                      fontFamily: 'Roboto',
-                                      fontWeight: FontWeight.normal,
-                                    ),
+                                borderSide: BorderSide(
+                                  color: Colors.transparent,
+                                  width: 1,
+                                ),
+                                borderRadius: BorderRadius.circular(8),
                               ),
                             ),
                           ],
