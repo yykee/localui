@@ -68,7 +68,7 @@ class _TestWidgetState extends State<TestWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
+                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                               child: Text(
                                 'Hello World',
                                 style: FlutterFlowTheme.of(context)
@@ -98,7 +98,7 @@ class _TestWidgetState extends State<TestWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
+                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                               child: Text(
                                 'Hello World',
                                 style: FlutterFlowTheme.of(context)
@@ -128,7 +128,7 @@ class _TestWidgetState extends State<TestWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
+                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                               child: Text(
                                 'Hello World',
                                 style: FlutterFlowTheme.of(context)
@@ -158,7 +158,7 @@ class _TestWidgetState extends State<TestWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
+                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                               child: Text(
                                 'Hello World',
                                 style: FlutterFlowTheme.of(context)
@@ -188,7 +188,7 @@ class _TestWidgetState extends State<TestWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(40, 0, 0, 0),
+                                  EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
                               child: Text(
                                 'Hello World',
                                 style: FlutterFlowTheme.of(context)
