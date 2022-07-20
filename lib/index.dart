@@ -12,4 +12,4 @@ export 'redeemlog/redeemlog_widget.dart' show RedeemlogWidget;
 export 'redeem1/redeem1_widget.dart' show Redeem1Widget;
 export 'newpage/newpage_widget.dart' show NewpageWidget;
 export 'amount1/amount1_widget.dart' show Amount1Widget;
-export 'test/test_widget.dart' show TestWidget;
+export 'bankinfo/bankinfo_widget.dart' show BankinfoWidget;

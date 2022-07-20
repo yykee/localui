@@ -5,14 +5,14 @@ import '../flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class TestWidget extends StatefulWidget {
-  const TestWidget({Key key}) : super(key: key);
+class BankinfoWidget extends StatefulWidget {
+  const BankinfoWidget({Key key}) : super(key: key);
 
   @override
-  _TestWidgetState createState() => _TestWidgetState();
+  _BankinfoWidgetState createState() => _BankinfoWidgetState();
 }
 
-class _TestWidgetState extends State<TestWidget> {
+class _BankinfoWidgetState extends State<BankinfoWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
