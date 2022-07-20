@@ -45,7 +45,7 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                 padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                 child: Container(
                   width: double.infinity,
-                  height: 230,
+                  height: 250,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
