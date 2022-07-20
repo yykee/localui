@@ -80,7 +80,7 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                             children: [
                               Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 5),
                                 child: Text(
                                   '银行名称',
                                   style: FlutterFlowTheme.of(context).bodyText1,
@@ -88,7 +88,7 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                               ),
                               Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 5),
                                 child: Text(
                                   '银行账户',
                                   style: FlutterFlowTheme.of(context).bodyText1,
@@ -96,7 +96,7 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                               ),
                               Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 5),
                                 child: Text(
                                   '姓名',
                                   style: FlutterFlowTheme.of(context).bodyText1,
@@ -104,7 +104,7 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                               ),
                               Padding(
                                 padding:
-                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                                    EdgeInsetsDirectional.fromSTEB(20, 0, 0, 5),
                                 child: Text(
                                   '手机',
                                   style: FlutterFlowTheme.of(context).bodyText1,
@@ -127,41 +127,57 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                               mainAxisSize: MainAxisSize.max,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
-                                  'RHB',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Roboto',
-                                        fontWeight: FontWeight.w500,
-                                      ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 0, 0, 5),
+                                  child: Text(
+                                    'RHB',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Roboto',
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                  ),
                                 ),
-                                Text(
-                                  '4081610213',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Roboto',
-                                        fontWeight: FontWeight.w500,
-                                      ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 0, 0, 5),
+                                  child: Text(
+                                    '4081610213',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Roboto',
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                  ),
                                 ),
-                                Text(
-                                  'YAP YANG KEE',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Roboto',
-                                        fontWeight: FontWeight.w500,
-                                      ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 0, 0, 5),
+                                  child: Text(
+                                    'YAP YANG KEE',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Roboto',
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                  ),
                                 ),
-                                Text(
-                                  '60128971106',
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'Roboto',
-                                        fontWeight: FontWeight.w500,
-                                      ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 0, 0, 5),
+                                  child: Text(
+                                    '60128971106',
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'Roboto',
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                  ),
                                 ),
                                 Text(
                                   'yykee1981@yahoo.com',
