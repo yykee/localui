@@ -562,22 +562,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    'dnwanxxs': {
+    'qnkv6vrn': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    'x89dtb0i': {
+    '70fnmrqo': {
       'zh_Hans': '简介',
       'en': '',
       'ms': '',
     },
-    's45ouaui': {
+    'ulqwiuco': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    'l2gol7l6': {
+    'uxed385c': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
@@ -595,22 +595,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    'jzmya4k4': {
+    'q0dcqvk7': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    '06ww3wnl': {
+    'zwk7ow7k': {
       'zh_Hans': 'URL 链接',
       'en': '',
       'ms': '',
     },
-    '1ipbaxlz': {
+    'ol2dekc0': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    '5jxmha5i': {
+    '0bhh3ue4': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
@@ -623,12 +623,12 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // zzwideget
   {
-    '090e5pgb': {
+    'c9iw3a3d': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    'ycu8cul1': {
+    '2q7tpm7b': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',
@@ -636,22 +636,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // map1
   {
-    'jfnpkz3k': {
+    'fsyqihs5': {
       'zh_Hans': '忽略地图',
       'en': '',
       'ms': '',
     },
-    'n9pvnczo': {
+    '5wc5sq0s': {
       'zh_Hans': '谷歌地图',
       'en': '',
       'ms': '',
     },
-    'abbqcbet': {
+    '3n0np4ok': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    'kzrablar': {
+    'mbburvm4': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',
@@ -659,27 +659,27 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // map2
   {
-    'j3tkfpxv': {
+    '1i1odc1v': {
       'zh_Hans': '159, Lrg Three Hill Park 3, 93200 Kuching Sarawak',
       'en': '',
       'ms': '',
     },
-    'tvvt4mtw': {
+    '94rg17el': {
       'zh_Hans': '重新定位',
       'en': '',
       'ms': '',
     },
-    'ka7omgbg': {
+    'v15uq870': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
     },
-    've9e0iq4': {
+    '7kdmtc44': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    '5kq2e85c': {
+    '8ohogq1l': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',

@@ -48,11 +48,21 @@ class _Map1WidgetState extends State<Map1Widget> {
                 children: [
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 30),
-                    child: Image.asset(
-                      'assets/images/google-maps.png',
-                      width: 200,
-                      height: 200,
-                      fit: BoxFit.cover,
+                    child: InkWell(
+                      onTap: () async {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => GameslistWidget(),
+                          ),
+                        );
+                      },
+                      child: Image.asset(
+                        'assets/images/google-maps.png',
+                        width: 200,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                 ],

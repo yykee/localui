@@ -48,11 +48,21 @@ class _Map2WidgetState extends State<Map2Widget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Image.asset(
-                      'assets/images/google-maps.png',
-                      width: 100,
-                      height: 100,
-                      fit: BoxFit.cover,
+                    InkWell(
+                      onTap: () async {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => GameslistWidget(),
+                          ),
+                        );
+                      },
+                      child: Image.asset(
+                        'assets/images/google-maps.png',
+                        width: 100,
+                        height: 100,
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ],
                 ),
