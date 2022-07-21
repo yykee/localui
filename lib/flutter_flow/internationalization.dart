@@ -562,22 +562,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    '4lpunc2a': {
+    'dnwanxxs': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    '8qsgsgpq': {
+    'x89dtb0i': {
       'zh_Hans': '简介',
       'en': '',
       'ms': '',
     },
-    'fy99cxcn': {
+    's45ouaui': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    'qfy2jyvi': {
+    'l2gol7l6': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
@@ -595,27 +595,91 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    'wr9ix41h': {
+    'jzmya4k4': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    'lpimn39g': {
+    '06ww3wnl': {
       'zh_Hans': 'URL 链接',
       'en': '',
       'ms': '',
     },
-    'ih21ezmd': {
+    '1ipbaxlz': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    'm8g15i9y': {
+    '5jxmha5i': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
     },
     'dlk2x8bv': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // zzwideget
+  {
+    '090e5pgb': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'ycu8cul1': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // map1
+  {
+    'jfnpkz3k': {
+      'zh_Hans': '忽略地图',
+      'en': '',
+      'ms': '',
+    },
+    'n9pvnczo': {
+      'zh_Hans': '谷歌地图',
+      'en': '',
+      'ms': '',
+    },
+    'abbqcbet': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'kzrablar': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // map2
+  {
+    'j3tkfpxv': {
+      'zh_Hans': '159, Lrg Three Hill Park 3, 93200 Kuching Sarawak',
+      'en': '',
+      'ms': '',
+    },
+    'tvvt4mtw': {
+      'zh_Hans': '重新定位',
+      'en': '',
+      'ms': '',
+    },
+    'ka7omgbg': {
+      'zh_Hans': '下一步',
+      'en': '',
+      'ms': '',
+    },
+    've9e0iq4': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    '5kq2e85c': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',

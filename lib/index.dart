@@ -15,3 +15,6 @@ export 'amount1/amount1_widget.dart' show Amount1Widget;
 export 'bankinfo/bankinfo_widget.dart' show BankinfoWidget;
 export 'form/form_widget.dart' show FormWidget;
 export 'url/url_widget.dart' show UrlWidget;
+export 'zzwideget/zzwideget_widget.dart' show ZzwidegetWidget;
+export 'map1/map1_widget.dart' show Map1Widget;
+export 'map2/map2_widget.dart' show Map2Widget;
