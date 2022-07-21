@@ -562,22 +562,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    'kjmkcsnc': {
+    'jdgtnjw7': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    'c9y6jy26': {
+    'n9qup6u9': {
       'zh_Hans': '简介',
       'en': '',
       'ms': '',
     },
-    '6d3mhvcv': {
+    'ce3bzni9': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    'qudmfu2h': {
+    'ecl8tca3': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
@@ -595,22 +595,22 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
       'ms': '',
     },
-    'ajdy5v6v': {
+    'ak4e65zm': {
       'zh_Hans': '广告标题',
       'en': '',
       'ms': '',
     },
-    'chhqnk7u': {
+    'kwondjuv': {
       'zh_Hans': 'URL 链接',
       'en': '',
       'ms': '',
     },
-    '38bzplh5': {
+    'mmrvwoon': {
       'zh_Hans': '重置',
       'en': '',
       'ms': '',
     },
-    '53p948dj': {
+    'oks5nqth': {
       'zh_Hans': '下一步',
       'en': '',
       'ms': '',
