@@ -479,77 +479,143 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // bankinfo
   {
-    '09h3614x': {
+    'p29l2bcj': {
       'zh_Hans': 'Page Title',
       'en': '',
       'ms': '',
     },
-    'y4ehby6i': {
+    '1tcpxqp6': {
       'zh_Hans': '银行信息',
       'en': '',
       'ms': '',
     },
-    'bc7p2efx': {
+    '0yzhyjfz': {
       'zh_Hans': '银行名称',
       'en': '',
       'ms': '',
     },
-    'a8l2sf22': {
+    'w1fnd1tv': {
       'zh_Hans': '银行账户',
       'en': '',
       'ms': '',
     },
-    'zzg327i6': {
+    '9twy745n': {
       'zh_Hans': '姓名',
       'en': '',
       'ms': '',
     },
-    '9dcbvxj2': {
+    '2mh2lcmw': {
       'zh_Hans': '手机',
       'en': '',
       'ms': '',
     },
-    'juzp8vet': {
+    'oipxlu9u': {
       'zh_Hans': '你的电邮',
       'en': '',
       'ms': '',
     },
-    'npzjzivj': {
+    'q8nmod1z': {
       'zh_Hans': 'RHB',
       'en': '',
       'ms': '',
     },
-    'ayij9wgs': {
+    'uxsy32hd': {
       'zh_Hans': '4081610213',
       'en': '',
       'ms': '',
     },
-    '53h4tsem': {
+    '59x83zw3': {
       'zh_Hans': 'YAP YANG KEE',
       'en': '',
       'ms': '',
     },
-    'nu8ocj8b': {
+    '7i73aaew': {
       'zh_Hans': '60128971106',
       'en': '',
       'ms': '',
     },
-    'wey0dflo': {
+    'rzyd7wex': {
       'zh_Hans': 'yykee1981@yahoo.com',
       'en': '',
       'ms': '',
     },
-    'ocrnrcew': {
+    'qphqqhaf': {
       'zh_Hans': '添加修改',
       'en': '',
       'ms': '',
     },
-    'vrsh0b47': {
+    'k0zdhgcm': {
       'zh_Hans': '现金交易记录',
       'en': '',
       'ms': '',
     },
-    'mhg0yc5z': {
+    'b88wxu4n': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // form
+  {
+    'tgtzso6m': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'kjmkcsnc': {
+      'zh_Hans': '广告标题',
+      'en': '',
+      'ms': '',
+    },
+    'c9y6jy26': {
+      'zh_Hans': '简介',
+      'en': '',
+      'ms': '',
+    },
+    '6d3mhvcv': {
+      'zh_Hans': '重置',
+      'en': '',
+      'ms': '',
+    },
+    'qudmfu2h': {
+      'zh_Hans': '下一步',
+      'en': '',
+      'ms': '',
+    },
+    'sgf8icy6': {
+      'zh_Hans': 'Home',
+      'en': '',
+      'ms': '',
+    },
+  },
+  // url
+  {
+    'seyo3tyn': {
+      'zh_Hans': 'Page Title',
+      'en': '',
+      'ms': '',
+    },
+    'ajdy5v6v': {
+      'zh_Hans': '广告标题',
+      'en': '',
+      'ms': '',
+    },
+    'chhqnk7u': {
+      'zh_Hans': 'URL 链接',
+      'en': '',
+      'ms': '',
+    },
+    '38bzplh5': {
+      'zh_Hans': '重置',
+      'en': '',
+      'ms': '',
+    },
+    '53p948dj': {
+      'zh_Hans': '下一步',
+      'en': '',
+      'ms': '',
+    },
+    'dlk2x8bv': {
       'zh_Hans': 'Home',
       'en': '',
       'ms': '',

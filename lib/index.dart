@@ -13,3 +13,5 @@ export 'redeem1/redeem1_widget.dart' show Redeem1Widget;
 export 'newpage/newpage_widget.dart' show NewpageWidget;
 export 'amount1/amount1_widget.dart' show Amount1Widget;
 export 'bankinfo/bankinfo_widget.dart' show BankinfoWidget;
+export 'form/form_widget.dart' show FormWidget;
+export 'url/url_widget.dart' show UrlWidget;

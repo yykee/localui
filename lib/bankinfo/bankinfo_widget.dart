@@ -23,7 +23,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            'p29l2bcj' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Roboto',
                 color: Colors.white,
@@ -61,7 +63,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(20, 5, 0, 5),
                             child: Text(
-                              '银行信息',
+                              FFLocalizations.of(context).getText(
+                                '1tcpxqp6' /* 银行信息 */,
+                              ),
                               style: FlutterFlowTheme.of(context).title3,
                             ),
                           ),
@@ -88,7 +92,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20, 0, 0, 0),
                                       child: Text(
-                                        '银行名称',
+                                        FFLocalizations.of(context).getText(
+                                          '0yzhyjfz' /* 银行名称 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
                                       ),
@@ -106,7 +112,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20, 0, 0, 0),
                                       child: Text(
-                                        '银行账户',
+                                        FFLocalizations.of(context).getText(
+                                          'w1fnd1tv' /* 银行账户 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
                                       ),
@@ -124,7 +132,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20, 0, 0, 0),
                                       child: Text(
-                                        '姓名',
+                                        FFLocalizations.of(context).getText(
+                                          '9twy745n' /* 姓名 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
                                       ),
@@ -142,7 +152,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           20, 0, 0, 0),
                                       child: Text(
-                                        '手机',
+                                        FFLocalizations.of(context).getText(
+                                          '2mh2lcmw' /* 手机 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1,
                                       ),
@@ -157,7 +169,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         20, 0, 0, 0),
                                     child: Text(
-                                      '你的电邮',
+                                      FFLocalizations.of(context).getText(
+                                        'oipxlu9u' /* 你的电邮 */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1,
                                     ),
@@ -180,7 +194,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        'RHB',
+                                        FFLocalizations.of(context).getText(
+                                          'q8nmod1z' /* RHB */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -198,7 +214,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        '4081610213',
+                                        FFLocalizations.of(context).getText(
+                                          'uxsy32hd' /* 4081610213 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -216,7 +234,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        'YAP YANG KEE',
+                                        FFLocalizations.of(context).getText(
+                                          '59x83zw3' /* YAP YANG KEE */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -234,7 +254,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Text(
-                                        '60128971106',
+                                        FFLocalizations.of(context).getText(
+                                          '7i73aaew' /* 60128971106 */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -249,7 +271,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      'yykee1981@yahoo.com',
+                                      FFLocalizations.of(context).getText(
+                                        'rzyd7wex' /* yykee1981@yahoo.com */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -279,7 +303,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                   ),
                                 );
                               },
-                              text: '添加修改',
+                              text: FFLocalizations.of(context).getText(
+                                'qphqqhaf' /* 添加修改 */,
+                              ),
                               options: FFButtonOptions(
                                 width: 130,
                                 height: 40,
@@ -306,7 +332,9 @@ class _BankinfoWidgetState extends State<BankinfoWidget> {
                                   ),
                                 );
                               },
-                              text: '现金交易记录',
+                              text: FFLocalizations.of(context).getText(
+                                'k0zdhgcm' /* 现金交易记录 */,
+                              ),
                               options: FFButtonOptions(
                                 width: 130,
                                 height: 40,
